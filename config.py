@@ -10,7 +10,7 @@ class Config(object):
     
     APP_ID = int(environ.get("API_ID", "2515895")) # Get this value from https://my.telegram.org/apps
     
-    API_HASH = environ.get("API_HASH", "503118adea978a8d0f82b598558382102515895") # Get this value from https://my.telegram.org/apps
+    API_HASH = environ.get("API_HASH", "503118adea978a8d0f82b59855838210") # Get this value from https://my.telegram.org/apps
     
     OWNER_ID = int(environ.get("OWNER_ID", 1849008944)) # Your(owner's) telegram id
     
