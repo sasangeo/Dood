@@ -14,5 +14,5 @@ class Config(object):
     
     OWNER_ID = int(environ.get("OWNER_ID", 1849008944)) # Your(owner's) telegram id
     
-    MONGO_STR = environ.get("MONGO_STR", "") # Get from MongoDB Atlas
+    MONGO_STR = environ.get("MONGO_STR", "mongodb+srv://wisnu29:wisnu29@cluster0.t36rn.mongodb.net/?retryWrites=true&w=majority") # Get from MongoDB Atlas
 
